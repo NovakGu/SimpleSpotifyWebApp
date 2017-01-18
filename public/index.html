@@ -1,0 +1,95 @@
+<html>
+	<head>
+		<meta content="initial-scale=1.0" name="viewport">
+		<script src=
+		"https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"
+		type="text/javascript"></script>
+		<script src="https://cdn.jsdelivr.net/lodash/4.17.1/lodash.min.js"></script>
+		<script type="text/javascript" src="app.js"></script>
+		<link rel="stylesheet" type="text/css" href="style.css">
+		<title></title>
+	</head>
+	<body onload="startApp()">
+		<div id="login">
+			<p>
+				<button id="start" class="btn">Log in</button>
+			</p>
+		</div><!-- "Page" to show when logged in -->
+
+		<div id="loggedin">
+			<div id = "sidenav" class="sideMenu">
+				<a href="javascript:void(0)" class = "close" onclick="closeNav()">
+					&times;
+				</a>
+				<a href="javascript:void(0)" onclick="showPlayList()">PlayList</a>
+		<a href="javascript:void(0)" onclick="showAllSongs()">AllSongs</a>
+		<a href="javascript:void(0)" onclick="showAllTags()">Tags</a>
+		<a href="javascript:void(0)" onclick="showSearch()">Search</a>
+
+	</div>
+			<span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; </span>
+	<div id="trackNav" class = "tracknav">
+		<a href="javascript:void(0)" class = "closet" onclick="closeTrackNav()">
+			&times;
+		</a>
+
+		<ul id="trackInfo"></ul>
+
+	</div>
+			<div id = "playlist">
+				<h1>
+					Playlists:
+				</h1>
+				<ul id="playlists"></ul>
+			</div>
+
+			<div id = "allsong">
+				<h1>
+
+				</h1>
+						<ul id="allsongs"></ul>
+			</div>
+
+			<div id = "targetPlaylist">
+				<ul id="target"></ul>
+			</div>
+			<div id = "allTags">
+				<h1>
+					All Tags:
+				</h1>
+				<ul id="tags"></ul>
+			</div>
+			<div id = "targetTag">
+				<ul id="tagPage"></ul>
+			</div>
+			<div id = "newTag">
+				<h2>
+						New Tag
+				</h2>
+				<input type="text" id="TagNameInput">
+				<button onclick="newTagPage()">Submit</button>
+				<ul id= "createTag"></ul>
+			</div>
+			<div id= "search">
+				<h2>Search by Tags</h2>
+				<input type="text" id="TagSearchInput">
+				<button onclick="NewTagSearch()">Submit</button>
+				<h2>Search by Ratings</h2>
+				<input type="text" id="RatingSearchInput">
+				<button onclick="NewRatingSearch()">Submit</button>
+				<ul id = "re"></ul>
+			</div>
+
+			<!--<p>
+			<ul id="tracks"></ul>
+		</p>
+		<p>
+			<ul id="tracks2"></ul>
+		</p>
+		<p>
+			<ul id="tracks3"></ul>
+		</p>
+			<ul id="tags"></ul> -->
+		</div>
+	</body>
+</html>

@@ -1,0 +1,28 @@
+ReadME
+
+Instructions:
+
+View PlayList: 
+1.Click the side Navigation Button on the top left of the main Screen
+2.Click PlayList in the side Navigation Bar
+3.User's PlayList should appear on the main screen(make sure user have at least 1 playlist in order to view the playlist)
+4.Click on your desired playList to show songs in the Playlist;
+
+View Tags:
+1.Click Tags in the side Navigation Bar
+2.Click desired Tags to view songs in the Tag
+3.To add tags, click the + button to add a Tag
+4.Add Tag with the same name is not allowed
+5.To Delete Tag, Navigate to the tag you want to delete and click the deleteTag Button
+6.To add songs in your Tag, Navigate to the songs in your playlist. or simply find the songs in "All Songs" on Navigation bar, click on the song and enter the Tag name you want the song to be added to
+
+Ratings:
+1.Navigate to the songs you want to rate, click on the song to open the song navigation bar, enter the rating between 1-5 and submit
+
+Search:
+1.To search the Songs with a single Tag, Navigate to the Search Page, enter your Tag name and click submit
+2.To search the songs with multible Tags, enter the Tags in the following way: e.g: search for tags 'one' and 'two', the input should be 'one,two'. Meaningly, you should seperate the tag name with ','
+3.To search the Songs with Ratings equal or above: enter the rating between 1 and 5 in the search field and click submit
+
+Overall Look and Feel:
+The skin is set to spotify-like green and black look, icons and buttons are made to look flat and more smooth. 
